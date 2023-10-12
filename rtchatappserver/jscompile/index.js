@@ -18,7 +18,9 @@ const wss = new ws_1.default.Server({
 });
 let clients = [];
 wss.on("connection", (ws) => {
+    console.log("Client Connection");
     ws.on("message", (messages) => {
+        console.log("Message received");
         const parsedData = JSON.parse(messages.toString());
         const { clientid, message, request } = parsedData;
         if (request === "DELETE") {
