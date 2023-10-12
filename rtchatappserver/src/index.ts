@@ -17,7 +17,11 @@ const wss = new WebSocket.Server({
 let clients: Array<any> = [];
 
 wss.on("connection", (ws: any) => {
+  console.log("Client Connection");
+
   ws.on("message", (messages: Buffer) => {
+    console.log("Message received");
+
     const parsedData = JSON.parse(messages.toString());
 
     const { clientid, message, request } = parsedData;
