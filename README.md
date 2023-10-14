@@ -20,17 +20,10 @@ npm start
 
 ### Back end
  
-* In rtchatappserver folder, paste the below two commands separately in two termials, it start the nodejs server.
+* In rtchatappserver folder, paste the below command in the termials, it start the nodejs server.
 
 ```
-npm run start
-tsc -watch
-```
-
-* If tsc error occurs then paste this below command
-
-```
-npm install -g typescript
+npm run server
 ```
 
 ### Working
