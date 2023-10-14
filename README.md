@@ -4,7 +4,7 @@
 
 * Clone the repository
 * There are two main folders, (rtchatappfrontend) which is front end React app and (rtchatappserver) which is nodejs server.
-* Open two terminals, navigate into two folders mentioned above and Paste the command on both terminals.
+* Open two terminals, navigate into two folders mentioned below and Paste the command on both terminals.
 
 ```
 npm i --save
